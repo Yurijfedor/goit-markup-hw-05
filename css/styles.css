@@ -62,6 +62,8 @@ img {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
+
+  transition: color 250ms var(--timing-function);
 }
 
 .logo:hover,
@@ -446,10 +448,14 @@ span.accent {
   height: 92px;
   border: 1px solid var(--social-link-color);
   padding: 16px 32px;
+
+  transition: border-color 250ms var(--timing-function);
 }
 
 .icon-client {
   fill: var(--social-link-color);
+
+  transition: fill 250ms var(--timing-function);
 }
 
 .link-client:hover,
@@ -585,6 +591,8 @@ button:focus {
   margin-top: 9px;
   color: var(--adress-link-color);
   font-style: normal;
+
+  transition: color 250ms var(--timing-function);
 }
 
 .address .link:hover,
@@ -619,6 +627,8 @@ button:focus {
   padding: 12px;
   border-radius: 50%;
   background-color: var(--footer-link-color);
+
+  transition: background-color 250ms var(--timing-function);
 }
 
 .link-footer:hover,
