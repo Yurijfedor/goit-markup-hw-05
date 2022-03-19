@@ -502,6 +502,10 @@ span.accent {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+
+  transition: color 250ms var(--timing-function),
+    background-color 250ms var(--timing-function),
+    box-shadow 250ms var(--timing-function);
 }
 
 button:hover,
@@ -529,6 +533,8 @@ button:focus {
   margin-left: var(--card-set-gap);
   margin-top: var(--card-set-gap);
   background: #ffffff;
+
+  transition: box-shadow 250ms var(--timing-function);
 }
 
 .card-set .item:hover,
