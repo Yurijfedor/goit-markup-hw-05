@@ -8,7 +8,7 @@
   --footer-link-color: rgba(255, 255, 255, 0.1);
   --secondary-bg-color: #f5f4fa;
   --card-set-gap: 30px;
-  --border-color: #eeeeee;
+  --card-border-color: #eeeeee;
   --footer-color: #2f303a;
   --border-color: #afb1b8;
   --social-link-color: #afb1b8;
@@ -56,6 +56,7 @@ img {
 
 .page-header {
   display: flex;
+  border-bottom: 1px solid #ececec;
 }
 
 .logo {
@@ -607,7 +608,8 @@ button:focus {
 
 .card-content {
   padding: 20px 24px;
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--card-border-color);
+  border-top: none;
 }
 
 /* footer */
