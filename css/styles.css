@@ -445,6 +445,7 @@ span.accent {
   width: 170px;
   height: 92px;
   border: 1px solid var(--social-icon-color);
+  border-radius: 4px;
   fill: var(--social-icon-color);
 
   transition: border-color 250ms var(--timing-function);
