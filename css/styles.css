@@ -734,11 +734,14 @@ button:focus {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--primary-white-color);
+
+  transition: background-color 250ms var(--timing-function);
 }
 
 .button-modal:hover,
 .button-modal:focus {
   cursor: pointer;
+  background-color: var(--accent-color);
 }
 
 .icon-close {
@@ -746,6 +749,8 @@ button:focus {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  transition: fill 250ms var(--timing-function);
 }
 
 .button-modal:hover .icon-close,
