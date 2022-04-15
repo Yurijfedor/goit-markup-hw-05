@@ -726,17 +726,24 @@ button:focus {
 
 .button-modal {
   display: block;
+  position: relative;
   width: 30px;
   height: 30px;
   margin-right: 0;
   margin-left: auto;
-  /* padding: 6px;
+  padding: 6px;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: var(--primary-white-color); */
+  background-color: var(--primary-white-color);
 }
 
 .button-modal:hover,
 .button-modal:focus {
   cursor: pointer;
+}
+
+.icon-close {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
