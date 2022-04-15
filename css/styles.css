@@ -731,7 +731,6 @@ button:focus {
   height: 30px;
   margin-right: 0;
   margin-left: auto;
-  padding: 6px;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--primary-white-color);
@@ -746,4 +745,9 @@ button:focus {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.icon-close:hover,
+.icon-close:focus {
+  fill: var(--primary-white-color);
 }
